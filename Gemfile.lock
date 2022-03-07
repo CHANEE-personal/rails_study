@@ -169,6 +169,10 @@ GEM
       thor (~> 1.0)
       zeitwerk (~> 2.5)
     rake (13.0.6)
+    ransack (2.5.0)
+      activerecord (>= 5.2.4)
+      activesupport (>= 5.2.4)
+      i18n
     regexp_parser (2.2.1)
     reline (0.3.1)
       io-console (~> 0.5)
@@ -202,7 +206,6 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     stimulus-rails (1.0.4)
       railties (>= 6.0.0)
     strscan (3.0.1)
@@ -240,10 +243,10 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.1)
+  ransack
   rspec-rails (~> 4.0.0)
   selenium-webdriver
   sprockets-rails
-  sqlite3 (~> 1.4)
   stimulus-rails
   turbo-rails
   tzinfo-data
