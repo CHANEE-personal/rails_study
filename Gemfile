@@ -70,3 +70,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# mysql
+gem 'mysql2', '~> 0.5.2'
